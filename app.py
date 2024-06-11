@@ -243,7 +243,7 @@ def start_game():
             )
         ):
             die_sound.play()
-            desenhar_tela(screen, pontos)  # Desenhar a tela antes de exibir o "Game Over"
+            desenhar_tela(screen, pontos)  
             game_over(screen, pontos)
             return
 
